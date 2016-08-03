@@ -50,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE5545AE1D5218DD00A6D6F8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
 		FE9CB32C1D52138900928A9F = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +79,7 @@
 		FE9CB3381D52138900928A9F /* Swissors */ = {
 			isa = PBXGroup;
 			children = (
+				FE5545AE1D5218DD00A6D6F8 /* Source */,
 				FE9CB3391D52138900928A9F /* Swissors.h */,
 				FE9CB33B1D52138900928A9F /* Info.plist */,
 			);
