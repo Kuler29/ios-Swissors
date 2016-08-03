@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE5545B01D52197800A6D6F8 /* UITableView+Swissors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5545AF1D52197800A6D6F8 /* UITableView+Swissors.swift */; };
 		FE9CB33A1D52138900928A9F /* Swissors.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9CB3391D52138900928A9F /* Swissors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE9CB3411D52138900928A9F /* Swissors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9CB3361D52138900928A9F /* Swissors.framework */; };
 		FE9CB3461D52138900928A9F /* SwissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CB3451D52138900928A9F /* SwissorsTests.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE5545AF1D52197800A6D6F8 /* UITableView+Swissors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Swissors.swift"; sourceTree = "<group>"; };
 		FE9CB3361D52138900928A9F /* Swissors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swissors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9CB3391D52138900928A9F /* Swissors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swissors.h; sourceTree = "<group>"; };
 		FE9CB33B1D52138900928A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		FE5545AE1D5218DD00A6D6F8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FE5545AF1D52197800A6D6F8 /* UITableView+Swissors.swift */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE5545B01D52197800A6D6F8 /* UITableView+Swissors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +323,7 @@
 		FE9CB34B1D52138900928A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -329,12 +334,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.e-legion.Swissors";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FE9CB34C1D52138900928A9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
